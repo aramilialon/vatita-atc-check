@@ -3,8 +3,12 @@
 use strict;
 use warnings;
 
-use lib ("./");
+use lib ("./library/");
 
-use library::library qw (Vatita_module);
+use library;
 
-Vatita_module::connect_vatsim("1");
+my $vatsim_id = $ARGV[0];
+
+print $vatsim_id."\n\n";
+
+Vatita_module::connect_vatsim($vatsim_id);
