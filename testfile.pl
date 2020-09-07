@@ -3,8 +3,8 @@
 use strict;
 use warnings;
 
-use lib ("./library/");
+use lib ("./");
 
-use library;
+use library::library qw (Vatita_module);
 
 Vatita_module::connect_vatsim("1");
