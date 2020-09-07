@@ -1,0 +1,3 @@
+https://forums.vatsim.net/forum/188-vatsim-api/
+https://forums.vatsim.net/topic/20-info-on-vatsim-api/
+https://api.vatsim.net/api/ratings/<id>/atcsessions/
